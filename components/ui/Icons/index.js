@@ -1,0 +1,6 @@
+export { default as Google } from "./Google"
+export { default as Facebook } from "./Facebook"
+export { default as Close } from "./Close"
+export { default as DfAvatar } from "./DfAvatar"
+export { default as icLogo } from "./logo"
+export { default as QrcodeVina } from "./QrcodeVina"

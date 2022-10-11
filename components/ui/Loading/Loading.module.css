@@ -1,0 +1,79 @@
+.ldsRoller {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  margin-top: 40%;
+  height: 80px;
+}
+.ldsRoller div {
+  animation: lds-roller 1.2s cubic-bezier(0.375, 0, 0.375, 0.75) infinite;
+  transform-origin: 30px 30px;
+}
+.ldsRoller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #ccc;
+  margin: -4px 0 0 -4px;
+}
+.ldsRoller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.ldsRoller div:nth-child(1):after {
+  top: 45.25px;
+  left: 50.25px;
+}
+.ldsRoller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.ldsRoller div:nth-child(2):after {
+  top: 51px;
+  left: 42px;
+}
+.ldsRoller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.ldsRoller div:nth-child(3):after {
+  top: 54px;
+  left: 34px;
+}
+.ldsRoller div:nth-child(4) {
+  animation-delay: -0.18s;
+}
+.ldsRoller div:nth-child(4):after {
+  top: 53.25px;
+  left: 24px;
+}
+.ldsRoller div:nth-child(5) {
+  animation-delay: -0.216s;
+}
+.ldsRoller div:nth-child(5):after {
+  top: 49px;
+  left: 15px;
+}
+.ldsRoller div:nth-child(6) {
+  animation-delay: -0.288s;
+}
+.ldsRoller div:nth-child(6):after {
+  top: 42px;
+  left: 9px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

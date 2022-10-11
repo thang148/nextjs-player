@@ -1,0 +1,22 @@
+.li {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #c1c7d0;
+  @apply cursor-pointer font-semibold;
+}
+.li:hover {
+  background-color: #002672;
+  color: #fff;
+}
+.active {
+  background-color: #002672;
+  border: 1px solid #002672;
+  color: #fff;
+}
+.disable {
+  @apply bg-gray-300 cursor-not-allowed;
+}
+.disable:hover {
+  color: #333;
+  @apply bg-gray-300;
+}

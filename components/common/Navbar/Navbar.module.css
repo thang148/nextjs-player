@@ -1,0 +1,18 @@
+.nav {
+  transition: background-color 0.5s ease-out;
+}
+.black {
+  background-color: rgba(0, 14, 43, 0.7);
+  backdrop-filter: blur(5px);
+}
+.white {
+  background-color: rgba(0, 14, 43, 0.9);
+}
+.active {
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid rgba(82, 181, 249, 1);
+  @apply text-dark-100 font-semibold;
+}
+.active a {
+  color: #e6e6e6;
+}

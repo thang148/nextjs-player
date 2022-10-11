@@ -1,0 +1,21 @@
+.icon {
+  width: 48px;
+  height: 32px;
+  @apply flex items-center justify-center;
+}
+
+.app {
+  height: 44px;
+}
+.fb {
+  background-color: #305ed6;
+}
+.button {
+  height: 44px;
+
+  @apply flex rounded justify-center items-center w-full mb-4 text-white cursor-pointer hover:bg-blue-500;
+}
+.gg {
+  background-color: #ff3d00;
+  @apply hover:bg-red-400;
+}

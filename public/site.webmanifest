@@ -1,0 +1,37 @@
+{
+  "name": "VinaSports",
+  "short_name": "VinaSports",
+  "description": "Tin tức thể thao nhiều người đọc nhất Việt Nam",
+  "display": "standalone",
+  "start_url": "/",
+  "theme_color": "#fff",
+  "background_color": "#fff",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "/favicon.svg",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "/favicon.svg",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/favicon.svg",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "images/touch/homescreen168.png",
+      "sizes": "168x168",
+      "type": "image/png"
+    }
+  ]
+}

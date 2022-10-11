@@ -1,0 +1,33 @@
+.switch {
+  width: 40px;
+  height: 22px;
+  @apply inline-block relative;
+}
+.switch input {
+  @apply h-0 w-0 opacity-0;
+}
+
+.slider {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  @apply rounded-full top-0 left-0 right-0 bottom-0 bg-gray-400 cursor-pointer absolute;
+}
+.slider:before {
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  @apply rounded-full bg-white absolute;
+}
+
+.input:checked + .slider {
+  @apply bg-blue-600;
+}
+
+.input:checked + .slider:before {
+  transform: translateX(18px);
+}

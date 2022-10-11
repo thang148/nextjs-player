@@ -1,0 +1,5 @@
+.root {
+  transform: translateY(-50%);
+}
+
+input: -webkit-autofill;

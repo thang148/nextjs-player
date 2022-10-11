@@ -1,0 +1,14 @@
+{
+  "editor.formatOnSave": false,
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "tslint.alwaysShowRuleFailuresAsWarnings": true,
+  },
+  "stylelint.enable": true,
+  "css.validate": false,
+  "scss.validate": false,
+  "[css]": {
+    "editor.formatOnSave": true
+  }
+}

@@ -1,0 +1,54 @@
+.f_w {
+  display: flex;
+  width: calc(100% - 110px);
+  position: relative;
+}
+
+@screen md {
+  .f_w {
+    width: calc(100% - 158px);
+  }
+}
+
+.boxLive1 {
+  width: 100%;
+  padding-left: 80px;
+  padding-right: 80px;
+  scrollbar-width: none;
+  outline: none !important;
+  border: none !important;
+  @apply flex overflow-auto mx-2;
+}
+
+.boxLive1::-webkit-scrollbar {
+  display: none;
+}
+
+.textColor {
+  color: #002672;
+}
+
+.box_action {
+  width: 40px;
+  height: 42px;
+  @apply rounded cursor-pointer flex items-center;
+}
+
+.bg_left {
+  background-color: #000E2B;
+  /* background-image: linear-gradient(to right,
+      rgb(27, 45, 81) 0,
+      rgba(27, 45, 81, 1) 50%,
+      rgba(0, 0, 0, 0)); */
+  padding-left: 8px;
+}
+
+.bg_right {
+  background-color: #000E2B;
+  /* background-image: linear-gradient(to left,
+      rgb(27, 45, 81) 0,
+      rgba(27, 45, 81, 1) 50%,
+      rgba(0, 0, 0, 0)); */
+  padding-right: 8px;
+  justify-content: end;
+}

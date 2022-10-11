@@ -1,0 +1,18 @@
+.box {
+  transform: translateY(-50%);
+  transition: width 0.3s;
+}
+
+.input {
+  /* border: 1px solid #536ebf; */
+  /* background-color: #133c84; */
+}
+
+.input:focus-visible {
+  outline: none;
+}
+
+.btnSearch {
+  transform: translateY(-50%);
+  right: 4px;
+}
